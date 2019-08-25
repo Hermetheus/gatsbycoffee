@@ -9,12 +9,14 @@ import PropTypes from "prop-types"
 import React from "react"
 import Navbar from "../components/global/Navbar"
 import "./bootstrap.min.css"
+import Footer from "./global/Footer"
 import "./layout.css"
 
 const Layout = ({ children }) => (
   <>
     <Navbar />
     {children}
+    <Footer />
   </>
 )
 

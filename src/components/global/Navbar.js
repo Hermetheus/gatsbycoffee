@@ -1,7 +1,7 @@
-import { Link } from "gatsby"
-import React, { Component } from "react"
-import { FaCartArrowDown } from "react-icons/fa"
-import logo from "../../images/logo.svg"
+import { Link } from "gatsby";
+import React, { Component } from "react";
+import { FaCartArrowDown } from "react-icons/fa";
+import logo from "../../images/logo.svg";
 
 export default class Navbar extends Component {
   state = {
@@ -58,7 +58,7 @@ https://www.iconfinder.com/webalys */}
               )
             })}
             <li className="nav-item ml-sm-5">
-              <FaCartArrowDown className="cart-icon" />
+              <FaCartArrowDown className="cart-icon snipcart-checkout" />
             </li>
           </ul>
         </div>

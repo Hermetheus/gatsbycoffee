@@ -1,10 +1,12 @@
-import { graphql } from "gatsby"
-import React from "react"
-import BackgroundSection from "../components/global/BackgroundSection"
-import Info from "../components/Home/Info"
-import Menu from "../components/Home/Menu"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import { graphql } from "gatsby";
+import React from "react";
+import BackgroundSection from "../components/global/BackgroundSection";
+import Contact from '../components/Home/Contact';
+import Info from "../components/Home/Info";
+import Menu from "../components/Home/Menu";
+import Products from '../components/Home/Products';
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -16,6 +18,8 @@ const IndexPage = ({ data }) => (
     />
     <Info />
     <Menu items={data.menu} />
+    <Products />
+    <Contact />
   </Layout>
 )
 

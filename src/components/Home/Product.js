@@ -1,5 +1,5 @@
-import Img from "gatsby-image";
-import React from "react";
+import Img from "gatsby-image"
+import React from "react"
 
 export default function Product({ product }) {
   return (
@@ -15,6 +15,7 @@ export default function Product({ product }) {
             data-item-name={product.title}
             data-item-price={product.price}
             data-item-image={product.image.fluid.src}
+            data-item-taxes="true"
             data-item-url="https://herm-coffee.netlify.com"
           >
             add to cart
